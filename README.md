@@ -14,6 +14,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Setup HTTPS on localhost
+
+- Download and Install this [tool](https://github.com/FiloSottile/mkcert) => choco install mkcert
+- Install self-signed certificates in your machine => mkcert -install
+- create a folder "certs" in your project root if is not already there (/) => mkdir certs
+- insert the created certificates in the "certs" folder and you are ready to run your dev server in https => cd certs
+- mkcert localhost 127.0.0.1
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
