@@ -2,11 +2,11 @@
   mat-raised-button
   class="go-back-button"
   color="primary"
-  aria-label="Torna al listing"
+  aria-label="Back to list"
   title="Dashboard"
   [routerLink]="['']"
 >
-  Torna al listing
+  Back to list
   <mat-icon>arrow_back_ios</mat-icon>
 
 </button>
@@ -39,6 +39,9 @@
             </mat-error>
           </mat-form-field>
         </div>
+       
+      </div>
+      <div class="row">
         <div class="col">
           <mat-form-field class="full-width">
             <input
@@ -103,6 +106,9 @@
             </mat-error>
           </mat-form-field>
         </div>
+      
+      </div>
+      <div class="row">
         <div class="col">
           <mat-form-field class="full-width">
             <mat-select placeholder="State" formControlName="state">

@@ -1,21 +1,20 @@
 /** Example file/folder data. */
 export const files = [
   {
-    name: 'Cartella utenti',
+    name: 'Users',
     type: 'folder',
     children: [
       {
-        name: 'Giovanardi',
+        name: 'User',
         type: 'folder',
         children: [
           {
-            name: 'Documenti',
+            name: 'Docs',
             type: 'folder',
             children: [
-              { name: 'Documento telepass.pdf', type: 'file' },
-              { name: 'Documento telepass.pdf', type: 'file' },
-              { name: 'Documento telepass.pdf', type: 'file' },
-              { name: 'Documento telepass.pdf', type: 'file' },
+              { name: 'Doc a.pdf', type: 'file' },
+              { name: 'Doc b.pdf', type: 'file' },
+              { name: 'Doc c.pdf', type: 'file' },
             ]
           },
         ]
@@ -23,26 +22,10 @@ export const files = [
     ]
   },
   {
-    name: 'Pluto',
+    name: 'Folder',
     type: 'folder',
     children: [
-      {
-        name: 'Cartelle segrete amministrazione',
-        type: 'folder',
-        children: [
-          { name: '.travis.yml', type: 'file' },
-          { name: 'firebase.json', type: 'file' }
-        ]
-      },
-      { name: 'package.json', type: 'file' }
-    ]
-  },
-  {
-    name: 'Viaggio ibiza 2022',
-    type: 'folder',
-    children: [
-      { name: 'questanoneibiza.js', type: 'file' },
-      { name: 'README.md', type: 'file' }
+      { name: 'file', type: 'file' },
     ]
   }
 ];
