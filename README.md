@@ -14,6 +14,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Deploy on github pages
+
+This projects automatically deploys on github pages. See guide here https://github.com/angular-schule/angular-cli-ghpages
+
 ## Setup HTTPS on localhost
 
 - Download and Install this [tool](https://github.com/FiloSottile/mkcert) => choco install mkcert
